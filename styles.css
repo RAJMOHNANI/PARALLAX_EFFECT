@@ -30,14 +30,19 @@
     width: 100%;
     z-index: -1;
 }
-
-h1{
-    position:absolute;
-    top:5rem;
-    font-size:10rem;
+h1 {
+    position: absolute;
+    top: 5rem;
+    font-size: 10rem;
     letter-spacing: 4px;
     color: white;
-    text-shadow:0 0 10px rgba(0,0,0,0.3);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6rem; /* Adjust the font size for mobile devices */
+    }
 }
 section{
     background-color: rgb(45,45,45);
