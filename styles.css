@@ -63,7 +63,7 @@ section {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 400px;
 }
 
 .secHeading {
@@ -114,51 +114,67 @@ section {
         left:40%
     }
 }
-/* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .container p {
-        font-size: 6rem; /* Adjusted font size for smaller screens */
-    }
-    .text {
-        font-size: 2rem; /* Adjusted font size for smaller screens */
-        padding: 0rem 1rem; /* Adjusted padding for responsiveness */
+       font-size: 7rem; /* Adjusted font size for smaller screens */
     }
     .desc2{
-        left:30%;
+        left:40%
     }
-    .desc1,.desc3{
-        left:35%;
+}
+@media screen and (max-width: 768px) {
+    .container p {
+        font-size: 6rem;
     }
-    .bg
-        {
-            width:768px; /* Adjust the height as needed */
-        }
+    .text {
+        font-size: 2rem;
+        padding: 0rem 1rem;
+    }
+    .desc2 {
+        left: 30%;
+    }
+    .desc1,
+    .desc3 {
+        left: 35%;
+    }
+    .bg {
+        width: 768px; /* Adjust the width as needed */
+        /* height: 300px; Adjust the height as needed */
+        background-size: cover; /* Adjust background size */
+    }
 }
 
 @media screen and (max-width: 550px) {
     .container p {
-        font-size: 5rem; /* Adjusted font size for smaller screens */
+        font-size: 5rem;
     }
-    .desc2{
-        left:18%
+    .desc2 {
+        left: 18%;
     }
-    .desc1,.desc3{
-        left:25%;
+    .desc1,
+    .desc3 {
+        left: 25%;
     }
 }
+
 @media screen and (max-width: 480px) {
     .container p {
-        font-size: 4rem; /* Further adjusted font size for smaller screens */
+        font-size: 4rem;
     }
-
     .text {
-        font-size: 0.8rem; /* Further adjusted font size for smaller screens */
-        padding: 0.3rem 0.5rem; /* Further adjusted padding for responsiveness */
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
     }
-    .desc1,.desc3{
-        left:30%;
+    .desc1,
+    .desc3 {
+        left: 30%;
     }
-    .desc2{
-        left:30%;
+    .desc2 {
+        left: 30%;
+    }
+    .bg {
+        width: 480px; /* Adjust the width as needed */
+        /* height: 200px; Adjust the height as needed */
+        background-size: cover; /* Adjust background size */
     }
 }
