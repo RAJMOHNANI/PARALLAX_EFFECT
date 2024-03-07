@@ -182,4 +182,10 @@ section {
         /* height: 200px; Adjust the height as needed */
         background-size: cover; /* Adjust background size */
     }
+    @media screen and (max-width: 400px) {
+    .bg {
+        width: 400px; /* Adjust the width as needed */
+        /* height: 200px; Adjust the height as needed */
+        background-size: cover; /* Adjust background size */
+    }
 }
