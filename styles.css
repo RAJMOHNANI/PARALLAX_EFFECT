@@ -184,6 +184,7 @@ section {
     }
     @media screen and (max-width: 350px) {
     .bg {
+        height: 200px; 
         width: 350px; /* Adjust the width as needed */
         /* height: 200px; Adjust the height as needed */
         background-size: cover; /* Adjust background size */
