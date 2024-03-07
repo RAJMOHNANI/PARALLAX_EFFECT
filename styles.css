@@ -210,5 +210,8 @@ section {
     .desc2 {
         left: 15%;
     }
+        .secHeading {
+            font-size: 4rem;
+        } 
 }
 }
