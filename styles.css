@@ -178,6 +178,7 @@ section {
         left: 30%;
     }
     .bg {
+        height: 300px;
         width: 480px; /* Adjust the width as needed */
         /* height: 200px; Adjust the height as needed */
         background-size: cover; /* Adjust background size */
