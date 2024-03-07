@@ -183,17 +183,32 @@ section {
         /* height: 200px; Adjust the height as needed */
         background-size: cover; /* Adjust background size */
     }
-    @media screen and (max-width: 300px) {
+    @media screen and (max-width: 400px) {
+        .container p {
+            font-size: 3rem;
+        }
+        
+    .text {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+    }
     .bg {
         height: 200px; 
-        width: 300px; /* Adjust the width as needed */
+        width: 400px; /* Adjust the width as needed */
         /* height: 200px; Adjust the height as needed */
         background-size: cover; /* Adjust background size */
     }
         .bg3
         {
-            width:200px;
+            width:400px;
             background-size: cover;
         }
+        .desc1,
+    .desc3 {
+        left: 25%;
+    }
+    .desc2 {
+        left: 15%;
+    }
 }
 }
