@@ -63,7 +63,7 @@ section {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 .secHeading {
@@ -154,6 +154,11 @@ section {
     .desc1,
     .desc3 {
         left: 25%;
+    }
+    .bg {
+        width: 550px; /* Adjust the width as needed */
+        /* height: 200px; Adjust the height as needed */
+        background-size: cover; /* Adjust background size */
     }
 }
 
